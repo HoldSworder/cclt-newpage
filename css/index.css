@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 800px ) {
+	#fpFont{
+		margin-left: 10% !important;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#fpFont{
+		margin-top: 80% !important;
+		margin-left: 7% !important;
+	}
+}
+
+
+.first-page{
+	background-image: url(../img/background/first-page.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	display: table;
+	width: 100%;
+	background-position: center;
+}
+
+.book img{
+	z-index: 1;
+	height: 12em;
+	width: 8em;
+	box-shadow: 0px 0px 20px 8px #aaa;
+	transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s; /* Firefox 4 */
+	-webkit-transition: box-shadow 1s; /* Safari 和 Chrome */
+	-o-transition: box-shadow 1s; /* Opera */
+}
+
+#bookImg:hover{
+	box-shadow: 0px 0px 20px 8px #4a678c;
+}
+
+#fpFont{
+	margin-top: 40%;
+	margin-left: 60%;
+}
+
+#fpFont h1{
+	font-size: 3rem;
+	color: white;
+	letter-spacing: 1rem;
+
+}
+
+#fpFont em{
+	font-size: 5rem;
+	letter-spacing: 0;
+	font-style: normal;
+	margin:0 1rem;
+}
+
+#fpFontLeft{
+	left: -5em;
+	position: relative;
+	opacity:0;
+}
+
+#fpFontRight{
+	left: 5em;
+	position: relative;
+	opacity:0;
+}
+
+.sp{
+	background-color: #588eb9;
+	text-align: center;
+	padding: 1rem 1rem 1rem 1rem;
+	color: white;
+	margin-bottom: 2rem;
+}
+
+.sp img{
+	padding: 4rem;
+}
+
+.sp p{
+	padding: 0 2rem 5rem;
+}
+
+.zhuti img{
+	margin: 3rem 0;
+}
+
+.down{
+	position: absolute;
+	bottom: 2rem;
+	width: 100%;
+	opacity: 1;
+}
+
+

@@ -1,0 +1,34 @@
+.firstpage{
+	width: 100%;
+	height: 75vh;
+	background-image: url(../img/background/service.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.row{
+	padding: 4rem 0 7rem;
+}
+
+.sv-text{
+	max-width: 400px;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	color: #666;
+}
+
+.sv-text h3{
+	color: #333;
+}
+
+.sv-img{
+	text-align: center;
+}
+
+.sv-first{
+	border-bottom: 1px solid #d0d4d9;
+}
+
+.container{
+	margin-bottom: 5rem;
+}

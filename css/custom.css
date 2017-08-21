@@ -1,0 +1,73 @@
+.firstpage{
+	width: 100%;
+	height: 75vh;
+	background-image: url(../img/background/dingzhi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.row img{
+	display: inline-block;
+}
+
+.dingzhi img{
+	width: 100px;
+}
+
+.dz-content a{
+	text-align: center;
+	color:#333;
+	text-decoration: none;
+}
+
+#dingzhi{
+	margin-bottom: 0;
+	padding-bottom: 5rem;
+}
+
+#dingzhi p{
+	margin-bottom: 5rem;
+}
+
+.tool img{
+	width: 7rem;
+	height: 7rem;
+}
+
+.tool{
+	margin: 3rem 0 8rem 0 ;
+}
+
+.dz-describe{
+	font-size: 2rem;
+}
+
+.advantage div{
+	margin-bottom: 3rem;
+}
+
+.advantage{
+	margin: 15rem 0 10rem 0;
+}
+
+.zhuti{
+	border-bottom: 1px solid #ccd1d9;
+}
+
+.case{
+	border:none;
+}
+
+.case img{
+	width: 150px;
+	height: 120px;
+}
+
+.response img{
+	width: 750px;
+	height: 350px;
+}
+
+.response-word{
+	margin-top: 125px;
+}
